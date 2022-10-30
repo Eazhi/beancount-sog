@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "beancount-sog"
+version = "0.1.0"
+description = "Beancount Importer for Société Générale CSV files"
+authors = ["Paul Khuat-Duy <paul@khuat-duy.org>"]
+license = "MIT"
+classifiers = [
+    "Environment :: Plugins",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+repository = "https://github.com/Eazhi/beancount-sog"
+keywords = ["banking", "beancount", "cli-accounting", "finance"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beancount = "^2.3.5"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+isort = "^5.10.1"
+ipython = "^8.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
