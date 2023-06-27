@@ -11,9 +11,11 @@ from beancount.core.number import Decimal
 from beancount.ingest import importer
 
 actions = [
+    "CARTE",
     "PRLV EUROP PONCTUEL",
     "PRELEVEMENT EUROPEEN",
     "VIR RECU",
+    "VIR INST RE",
     "VIR INST REC",
     "VIR PERM",
     "VIR INSTANTANE EMIS",
@@ -24,6 +26,8 @@ actions = [
     "FRAIS VIR INSTANTANE",
     "CHEQUE",
     "REMISE CHEQUE",
+    "FRAIS PAIEMENT HORS ZONE EURO",
+    "COTISATION",
 ]
 
 
